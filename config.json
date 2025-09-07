@@ -1,8 +1,8 @@
 {
-  "strategy_file": "final_strategy.py",
+  "strategy_file": "debug_strategy.py",
   "backtest_config": {
     "start_date": "2020-01-01",
-    "end_date": "2023-12-31",
+    "end_date": "2020-03-31",
     "benchmark": "000300.XSHG",
     "capital": 1000000,
     "frequency": "day",

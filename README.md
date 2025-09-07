@@ -17,7 +17,8 @@ quantities
 
 ## 文件说明
 
-- `final_strategy.py`：最终版策略文件，包含所有交易逻辑，可直接在聚宽平台运行
+- `debug_strategy.py`：调试版策略文件，包含详细的日志输出，用于诊断交易问题
+- `final_strategy.py`：最终版策略文件，包含所有交易逻辑
 - `config.json`：回测配置文件，设置回测参数
 
 ## 使用方法
