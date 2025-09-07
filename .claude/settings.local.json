@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install jqdatasdk)",
+      "WebSearch",
+      "Bash(dir \"C:\\Users\\wupen\\home\\github\\quan\")",
+      "Bash(del \"C:\\Users\\wupen\\home\\github\\quan\\joinquant_strategy.py\" \"C:\\Users\\wupen\\home\\github\\quan\\simple_joinquant_strategy.py\" \"C:\\Users\\wupen\\home\\github\\quan\\minimal_test_strategy.py\" \"C:\\Users\\wupen\\home\\github\\quan\\fixed_strategy.py\" \"C:\\Users\\wupen\\home\\github\\quan\\manual_verification.py\")",
+      "Bash(git init)",
+      "Bash(git add .)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "strategy_file": "final_strategy.py",
+  "backtest_config": {
+    "start_date": "2020-01-01",
+    "end_date": "2023-12-31",
+    "benchmark": "000300.XSHG",
+    "capital": 1000000,
+    "frequency": "day",
+    "refresh_rate": 1
+  },
+  "risk_config": {
+    "max_drawdown_limit": 0.15,
+    "position_limit": 0.9
+  },
+  "performance_metrics": [
+    "annual_return",
+    "benchmark_return",
+    "max_drawdown",
+    "sharpe",
+    "alpha",
+    "beta",
+    "information_ratio"
+  ]
+}
