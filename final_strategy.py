@@ -42,6 +42,17 @@ def initialize(context):
     run_daily(market_close, time='close')
     run_daily(risk_management, time='14:30')  # 盘中风险控制
 
+# 检查是否为ST股票
+def is_st_stock(stock):
+    try:
+        # 获取股票信息
+        info = get_security_info(stock)
+        if info and hasattr(info, 'display_name'):
+            return 'ST' in info.display_name or '*ST' in info.display_name
+        return False
+    except:
+        return False
+
 # 交易函数
 def trade(context):
     # 获取当前日期
