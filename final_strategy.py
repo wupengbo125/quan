@@ -53,6 +53,17 @@ def is_st_stock(stock):
     except:
         return False
 
+# 检查是否停牌
+def is_suspended(stock):
+    try:
+        # 获取股票停牌信息
+        current_data = get_current_data()
+        if stock in current_data:
+            return current_data[stock].is_paused
+        return True
+    except:
+        return True
+
 # 交易函数
 def trade(context):
     # 获取当前日期
